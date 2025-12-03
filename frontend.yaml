@@ -1,0 +1,5 @@
+- name: configure frontend server
+  hosts: 35.174.60.201
+  become: yes 
+  roles:
+  - frontend 
