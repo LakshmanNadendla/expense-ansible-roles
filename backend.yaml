@@ -1,0 +1,5 @@
+- name: configure backend server
+  hosts: 172.31.78.43
+  become: yes 
+  roles:
+  - backend
